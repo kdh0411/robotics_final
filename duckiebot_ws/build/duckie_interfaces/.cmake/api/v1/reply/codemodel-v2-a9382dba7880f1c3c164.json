@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e4e98b47b5910a01b0ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "duckie_interfaces__py",
+					"jsonFile" : "directory-duckie_interfaces__py-4049df7461c1da345f3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/kdh/robotics_final/duckiebot_ws/build/duckie_interfaces/duckie_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "duckie_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_duckie_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_duckie_interfaces_egg-84b656a0849407093707.json",
+					"name" : "ament_cmake_python_build_duckie_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_duckie_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_duckie_interfaces-c1cf0e1642c70749fbff.json",
+					"name" : "ament_cmake_python_copy_duckie_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces-5fe23d36a299f43c5762.json",
+					"name" : "duckie_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces__cpp-728e2165b1306aaadc78.json",
+					"name" : "duckie_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "duckie_interfaces__py::@e13905ae5f0239c09c8c",
+					"jsonFile" : "target-duckie_interfaces__py-8daf11d5691caff02954.json",
+					"name" : "duckie_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces__rosidl_generator_c-06bc917602702bedb3cf.json",
+					"name" : "duckie_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces__rosidl_generator_py-5e65d4c07e59ac1a671b.json",
+					"name" : "duckie_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces__rosidl_typesupport_c-038dc1abe6f734ec2015.json",
+					"name" : "duckie_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces__rosidl_typesupport_c__pyext-45cc3892fd660e099ef1.json",
+					"name" : "duckie_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces__rosidl_typesupport_cpp-1ab8b099eb5f7edea7d8.json",
+					"name" : "duckie_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces__rosidl_typesupport_fastrtps_c-14dc55ed2cdf585cc541.json",
+					"name" : "duckie_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces__rosidl_typesupport_fastrtps_c__pyext-e204327e0ed45bccffa0.json",
+					"name" : "duckie_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces__rosidl_typesupport_fastrtps_cpp-775e3ba9eeb9e567b519.json",
+					"name" : "duckie_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces__rosidl_typesupport_introspection_c-3eefabfec3f84f0f8ef0.json",
+					"name" : "duckie_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces__rosidl_typesupport_introspection_c__pyext-ffe70ee88c055e3b88ad.json",
+					"name" : "duckie_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces__rosidl_typesupport_introspection_cpp-82e2e3d5231f4f56be70.json",
+					"name" : "duckie_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckie_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckie_interfaces_uninstall-04be6beb3a4f9c64170b.json",
+					"name" : "duckie_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1886d84b1ff4502ae41f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kdh/robotics_final/duckiebot_ws/build/duckie_interfaces",
+		"source" : "/home/kdh/robotics_final/duckiebot_ws/src/duckie_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

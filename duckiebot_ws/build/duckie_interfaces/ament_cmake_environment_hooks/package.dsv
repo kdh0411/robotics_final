@@ -1,0 +1,4 @@
+source;share/duckie_interfaces/local_setup.bash
+source;share/duckie_interfaces/local_setup.dsv
+source;share/duckie_interfaces/local_setup.sh
+source;share/duckie_interfaces/local_setup.zsh

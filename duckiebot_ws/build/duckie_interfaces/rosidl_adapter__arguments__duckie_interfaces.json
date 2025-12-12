@@ -1,0 +1,6 @@
+{
+  "package_name": "duckie_interfaces",
+  "non_idl_tuples": [
+    "/home/kdh/robotics_final/duckiebot_ws/src/duckie_interfaces:srv/LedControl.srv"
+  ]
+}

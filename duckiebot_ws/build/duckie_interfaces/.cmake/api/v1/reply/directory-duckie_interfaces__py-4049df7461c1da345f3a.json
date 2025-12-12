@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "duckie_interfaces__py",
+		"source" : "/home/kdh/robotics_final/duckiebot_ws/build/duckie_interfaces/duckie_interfaces__py"
+	}
+}

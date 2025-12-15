@@ -3,25 +3,8 @@ Isaac Sim 기반 Duckiebot 모델링 및 자율주행 프로젝트
 
 # 1. 모델링 소개 
 1. 구조
-duckiebot (Xform + ArticulationRoot) 
- ├── chassis (Xform) rigid body
- │     ├── body                     (Mesh:Cube)        ← Duckiebot 바디
- │     ├── led_1                    (Mesh:Cube)
- │     ├── led_2                    (Mesh:Cube)
- │     ├── led_3                    (Mesh:Cube)
- │     ├── caster_ball              (Mesh:Sphere)      ← 보조바퀴
- │     ├── camera_front             (Camera)           ← 전방 카메라
- │
- ├── left_wheel (Xform)
- │     ├── wheel_mesh               (Mesh:Cylinder)
- │     
- │
- ├── right_wheel (Xform)
- │     ├── wheel_mesh               (Mesh:Cylinder)
- │     
- ├── Joints (Scope)
- ├     ├── wheel_joint_left               (PhysicsRevolute)
- ├     ├── wheel_joint_right              (PhysicsRevolute)
+https://private-user-images.githubusercontent.com/138554661/526790066-67cbf5c6-8c73-468b-9152-08854c5591aa.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU4MzczNjAsIm5iZiI6MTc2NTgzNzA2MCwicGF0aCI6Ii8xMzg1NTQ2NjEvNTI2NzkwMDY2LTY3Y2JmNWM2LThjNzMtNDY4Yi05MTUyLTA4ODU0YzU1OTFhYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxNVQyMjE3NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mYjQ1Yzk5NDYyYWRkOWIxNmVkZDU2NGM0MmEwY2YzYjY0NzQ3Y2ExZjdjM2FiMGEzMzY1ZGE3Yzk4NzI5OThmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.eO-Rhat5SzVG02Jiw5_LDyV21qotXkY0vKS7s7JeuMc
 
 2. 로봇 모델 이미지
    
+https://private-user-images.githubusercontent.com/138554661/526790112-8370f4ad-f121-47db-bc97-06193f314447.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU4Mzc0MDgsIm5iZiI6MTc2NTgzNzEwOCwicGF0aCI6Ii8xMzg1NTQ2NjEvNTI2NzkwMTEyLTgzNzBmNGFkLWYxMjEtNDdkYi1iYzk3LTA2MTkzZjMxNDQ0Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxNVQyMjE4MjhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xMDRiM2M0NDk5ODM4ZGQzZGI5NzQ2NTg1NDM3NTMwNmI4NGQ5NWZlMjlmOWU2ZjU2YThiYTJhZTJmNTg4NzYzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.rMh83hXsJT3Y2eBsoyL7MyI2-Dca91ZyLwHu-V8Bkkk

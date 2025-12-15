@@ -17,17 +17,8 @@ ROS2 서비스 요청은 토픽 메시지로 변환되어 Isaac Sim 내부 Actio
 ---
 
 ## 2.1 시스템 구조
-ROS2 Service Call
-↓
-duckie_led_service.py (ROS2, rclpy)
-↓
-/duckie/led_color (std_msgs/String)
-↓
-Isaac Sim ROS2 Bridge
-↓
-Action Graph + Script Node
-↓
-Duckiebot LED 색상 변경
+ROS2 Service Call-> duckie_led_service.py (ROS2, rclpy)-> /duckie/led_color (std_msgs/String) ->Isaac Sim ROS2 Bridge
+->Action Graph + Script Node ->Duckiebot LED 색상 변경
 
 
 ---
